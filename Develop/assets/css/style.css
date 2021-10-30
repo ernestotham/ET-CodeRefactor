@@ -26,7 +26,7 @@ body {
 }
 
 .header ul {
-    float: right;
+    display: flex-end
 }
 
 
