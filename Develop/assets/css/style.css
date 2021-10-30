@@ -13,7 +13,6 @@ body {
 /* adds main rules to the header  */
 .header {
     display: flex;
-    justify-content: space-between;
     padding: 10px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
@@ -22,9 +21,15 @@ body {
 
 /* rule for main header tittle */
 .header h1 {
-    display: inline-block;
+    /*display: inline-block;*/
+    align-self: flex-start;
     font-size: 48px;
 }
+
+.header ul {
+    align-self: flex-end;
+}
+
 
 /* rule to add special color some of the letter in main header tittle   */
 .header h1 .seo {
