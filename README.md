@@ -2,7 +2,7 @@
 
 ## ET-CodeRefactor
 
-ET-CodeRefactor is a improved code from the original version. it corrected a broken link and consolidated some of hte rules in CSS as improve on hte display for the the smaller screens 
+ET-CodeRefactor is a improved code from the original version. it corrected a broken link and consolidated some of the rules in CSS as improve on hte display for the the smaller screens 
 
 
 > **Live view of hte page**: https://ernestotham.github.io/ET-CodeRefactor/Develop/
