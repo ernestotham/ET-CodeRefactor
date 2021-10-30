@@ -1,13 +1,16 @@
+/* Catch all rule  */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* sets background calor to body section */
 body {
     background-color: #d9dcd6;
 }
 
+/* adds main rules to the header  */
 .header {
     display: flex;
     padding: 10px;
@@ -16,17 +19,19 @@ body {
     color: #ffffff;
 }
 
+/* rule for main header tittle */
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
-
+/* rule to add special color some of the letter in main header tittle   */
 .header h1 .seo {
     color: #d9dcd6;
     
 }
 
+/*  main properties to the DIV section of the header  */
 .header div {
     padding: 10px;
     margin: 0px;
@@ -37,26 +42,32 @@ body {
     
 }
 
+/* removes style to the UL tag in hte header  */
 .header div ul {
     list-style-type: none;
     
 }
 
+/* adds display inline block to structure of hte header  */
 .header div ul li {
     display: inline-block;
     margin: 25px;
     
 }
 
+/* adds color to the reference links  */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/* sets paragraph font size  */
 p {
     font-size: 16px;
 }
 
+
+/* Sets main image to hte body section  */
 .hero {
     height: 800px;
     width: 100%;
@@ -66,16 +77,20 @@ p {
     background-position: center;
 }
 
+/* pushes image to the left side for  a section  */
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/* pushes image to the right side for  a section  */
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
+
+/* Sets main content in body section and stacks up the description sections  */
 .content {
     
     width: 75%;
@@ -84,6 +99,7 @@ p {
     
 }
 
+/* main rule for the benefits side section including background color  */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -95,22 +111,27 @@ p {
     background-color: #2589bd;
 }
 
+/* main rule to set color and margin for the fonts on hte benefit side section */
 .benefit-lead, .benefit-brand, .benefit-cost{
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/* rule to set properties for the headers used in the side benefits section */
 .benefit-lead h3, .benefit-brand h3, .benefit-cost h3  {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/* rules for the  images in hte benefit side section*/
 .benefit-lead img, .benefit-brand img, .benefit-cost img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+
+/* rule to set the properties on the main content for the body */
 .search-engine-optimization, .online-reputation-management, .social-media-marketing {
     margin-bottom: 10%;
     padding: 50px;
@@ -121,19 +142,21 @@ p {
     
 }
 
-
+/* rule to set the properties for the images in the content body main section */
 .search-engine-optimization img, .social-media-marketing img, .online-reputation-management img  {
     max-height: 150px;
     padding: 10px;
     
 }
 
+/* rule to set properties for the headers used in the content body main section */
 .search-engine-optimization h2, .online-reputation-management h2, .social-media-marketing h2  {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
 
+/* rule for the footer section */
 .footer {
     padding: 30px;
     clear: both;
@@ -141,10 +164,13 @@ p {
     text-align: center;
 }
 
+/* footer header properties */
 .footer h2 {
     font-size: 20px;
 }
 
+
+/* adds behavior for smaller screens */
 @media only screen and (max-width: 820px)
       
 {
@@ -170,7 +196,7 @@ p {
     
   }
 
-
+/* adds behavior for very small screens */
   @media only screen and (max-width:768px)
       
 {
