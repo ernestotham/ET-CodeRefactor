@@ -25,6 +25,11 @@ body {
     font-size: 48px;
 }
 
+.header ul {
+    float: right;
+}
+
+
 /* rule to add special color some of the letter in main header tittle   */
 .header h1 .seo {
     color: #d9dcd6;
@@ -67,7 +72,7 @@ p {
 }
 
 
-/* Sets main image to hte body section  */
+/* Sets main image to the body section  */
 .hero {
     height: 800px;
     width: 100%;
