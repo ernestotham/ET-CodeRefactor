@@ -9,6 +9,7 @@ body {
 }
 
 .header {
+    display: flex;
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
@@ -20,25 +21,31 @@ body {
     font-size: 48px;
 }
 
+
 .header h1 .seo {
     color: #d9dcd6;
+    
 }
 
 .header div {
-    padding-top: 15px;
-    margin-right: 20px;
+    padding: 10px;
+    margin: 0px;
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
+    
+    
 }
 
 .header div ul {
     list-style-type: none;
+    
 }
 
 .header div ul li {
     display: inline-block;
-    margin-left: 25px;
+    margin: 25px;
+    
 }
 
 a {
@@ -70,9 +77,11 @@ p {
 }
 
 .content {
+    
     width: 75%;
     display: inline-block;
     margin-left: 20px;
+    
 }
 
 .benefits {
@@ -103,20 +112,23 @@ p {
 }
 
 .search-engine-optimization, .online-reputation-management, .social-media-marketing {
-    margin-bottom: 20px;
+    margin-bottom: 10%;
     padding: 50px;
-    height: 300px;
+    height: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
+    
 }
 
 
 .search-engine-optimization img, .social-media-marketing img, .online-reputation-management img  {
-    max-height: 200px;
+    max-height: 150px;
+    padding: 10px;
+    
 }
 
-.search-engine-optimization h2, .online-reputation-management h2, .social-media-marketing h2 {
+.search-engine-optimization h2, .online-reputation-management h2, .social-media-marketing h2  {
     margin-bottom: 20px;
     font-size: 36px;
 }
@@ -132,3 +144,38 @@ p {
 .footer h2 {
     font-size: 20px;
 }
+
+@media only screen and (max-width: 820px)
+      
+{
+    .benefits {
+        margin-right: 20px;
+        padding: 20px;
+        clear: both;
+        float: left;
+        width: 100%;
+        height: 100%;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        background-color: #2589bd;
+    }
+
+
+  }
+
+
+  @media only screen and (max-width:768px)
+      
+{
+    .benefits {
+        margin-right: 20px;
+        padding: 20px;
+        clear: both;
+        float: left;
+        width: 100%;
+        height: 100%;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        background-color: #2589bd;
+    }
+
+
+  }
