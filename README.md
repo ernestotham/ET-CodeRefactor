@@ -10,6 +10,7 @@ ET-CodeRefactor is a improved code from the original version. It corrected a bro
 
 
 ## Moke-up
-![The Horiseon webpage includes a navigation bar, a header image, and cards with text and images at the bottom of the page.](./Assets/01-html-css-git-homework-demo.png)
 
 
+
+![01-html-css-git-homework-demo](https://user-images.githubusercontent.com/23125242/146104261-1616a4ed-9daf-4181-9f8b-097762f4b64b.png)
